@@ -1,24 +1,63 @@
-<link rel="stylesheet" href="style\style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js">
-</script>
+<!doctype html>
+<html lang="en">
 
-<div id="container">
-    <div id="menu">
-        <label>1? 2? or 3? Your Choice</label>
-        <input type="number" min="1" max="3" id="userNumber">
-        <button type="submit" onclick="randomNumber()" id="submit">GUESS</button>
-        
+<head>
+    <title>Guess To Move</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+	<meta name="Description" content="user guesses a number in order to play the game" />
+	<meta name="Keywords" content="guess, move, choice" />
+	<meta name="Author" content="Phatutshedzo Makushu" />
+
+    <link rel="stylesheet" href="style\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="menu">
+            <label>1? 2? or 3? Your Choice</label><br />
+            <input type="number" min="1" max="3" id="userNumber" placeholder="?">
+            <input type="button" id="submit" value="Guess 20" onclick="moveUser()">
+
+        </div>
+
+        <div id="answer"></div>
+
+        <div class="step one">1</div>
+        <div class="step two">2</div>
+        <div class="step three">3</div>
+        <div class="step four">4</div>
+        <div class="step five">5</div>
+        <div class="step six">6</div>
+        <div class="step seven">7</div>
+        <div class="step eight">8</div>
+        <div class="step nine">9</div>
+        <div class="step ten">10</div>
+        <div class="step eleven">11</div>
+        <div class="step twelve">12</div>
+        <div class="step thirteen">13</div>
+        <div class="step fourteen">14</div>
+        <div class="step fifteen">15</div>
+        <div class="step sixteen">16</div>
+        <div class="step seventeen">17</div>
+        <div class="step eighteen">18</div>
+        <div class="step nineteen">19</div>
+        <div class="step twenty">20</div>
+        <div class="step twentyone">21</div>
+        <div class="step twentytwo">22</div>
+        <div class="step twentythree">23</div>
+        <div class="step twentyfour">24</div>
+        <div class="step twentyfive">25</div>
     </div>
-    <div id="answer"></div>
-    <div class="step one">1</div>
-    <div class="step two">2</div>
-    <div class="step three">3</div>
-    <div class="step four">4</div>
-    <div class="step five">5</div>
-    <div class="step six">6</div>
-    <div class="step seven">7</div>
-    <div class="step eight">8</div>
-    <div class="step nine">9</div>
-</div>
 
-<script src="guessToMove.js"></script>
+    <script src="guessToMove.js"></script>
+
+</body>
+<footer>
+    Designed by Phatutshedzo Makushu
+</footer>
+</html>
