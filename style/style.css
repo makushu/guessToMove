@@ -39,7 +39,11 @@ body{
     background-image: linear-gradient(to right, rgb(26, 6, 6) , rgb(230, 230, 204));
     border: 2px solid rgb(54, 32, 32);
     height: 100px;
+<<<<<<< HEAD
     font-size: 50px;
+=======
+    font-size: 40px;
+>>>>>>> 2b2b9fc0ccd4eed526a947e08a98c193b4e9f33f
     font-family: 'Mrs Saint Delafield', cursive;
 }
 
@@ -47,6 +51,7 @@ body{
 footer{
     text-align: center;
 }
+<<<<<<< HEAD
 
 
 /* media query for divs that represent steps */
@@ -55,3 +60,5 @@ footer{
         height: 80px;
     }  
 }
+=======
+>>>>>>> 2b2b9fc0ccd4eed526a947e08a98c193b4e9f33f
