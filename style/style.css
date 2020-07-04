@@ -47,3 +47,11 @@ body{
 footer{
     text-align: center;
 }
+
+
+/* media query for divs that represent steps */
+@media (max-width: 700px) {
+    .step{
+        height: 80px;
+    }  
+}
