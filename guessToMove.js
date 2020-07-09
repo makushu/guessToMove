@@ -41,7 +41,7 @@ moveUser = () => {
     $("#submit").click(
       function () {
         $(move[position - 1]).css({ 
-          background: "-webkit-gradient(linear, left top, left bottom, to(#000))" 
+          background:  "-webkit-gradient(linear, left top, left bottom, to(#000))" 
         });
 
         $(move[position - 2]).css({
